@@ -1,0 +1,16 @@
+{
+  "name": "mealkar",
+  "version": "1.0.0",
+  "description": "This is a food ordering app but not a usual one",
+  "main": "App.js",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build" : "npx parcel build index.html",
+    "test": "jest"
+  },
+  "author": "amiGauravSingh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
