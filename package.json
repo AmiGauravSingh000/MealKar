@@ -4,13 +4,16 @@
   "description": "This is a food ordering app but not a usual one",
   "main": "App.js",
   "scripts": {
-    "start": "npx parcel index.html",
-    "build" : "npx parcel build index.html",
-    "test": "jest"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "amiGauravSingh",
   "license": "ISC",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "vite": "^5.1.3"
   }
 }

@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.logoimg{
+    height: 80%;
+}
+
+.search-div{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+
+}
+
+.search-div >input{
+    margin-right: 15px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    border-radius: 15px;
+    width: 220px;
+    height: 30px;
+}
+
+.search-div .search-icon{
+    color: black;
+    position: relative;
+    right: 40px;
+    font-size: 20px;
+    margin-right: 7px;
+}
+.navList{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.navList > li{
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.authButtons{
+    /* border: 2px solid brown; */
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 170px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.authButtons > button{
+        text-decoration: none;
+        color:white;
+        padding: 13px;
+        text-align: center;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 5px;
+        margin: 5px;
+}
