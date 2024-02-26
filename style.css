@@ -4,13 +4,12 @@ body{
     box-sizing: border-box;
 }
 .container{
-    height: 80px;
+    height: 100px;
     background-color: wheat;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    /* border: 2px solid blue; */
-    /* border-bottom: 1px solid black; */
 }
 .logo{
     width: 100px;
@@ -54,6 +53,9 @@ body{
     margin-right: 7px;
     cursor: pointer;
 }
+.search-div .search-icon:hover{
+    color: brown;
+}
 .navList{
     /* border: 2px solid blueviolet; */
     display: flex;
@@ -61,7 +63,6 @@ body{
     justify-content: center;
     list-style-type: none;
     margin: 10px;
-    flex-wrap: wrap;
 }
 .navList > li{
     margin: 5px;
@@ -93,27 +94,21 @@ body{
 }
 
 .body{
-    height: fit-content;
-    width: 100%;
-    /* background-color: red; */
-    /* border: 3px solid black; */
+    height: 600px;
+    padding-top: 10px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     /* background-color: rgb(218, 209, 193); */
     background-color: #DCC7AA;
 }
-.body .RestauLists{
-    width: 100%;
-    /* background-color: blueviolet; */
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    justify-content: space-evenly;
-}
+
 .body .restauCard{
-    width: 15%;
-    height: 200px;
+    width:200px;
+    /* height: 200px;    */
+    height: fit-content;
     background-color: white;
-    /* border: 2px solid blue; */
     margin: 10px;
     padding: 5px;
     border-radius: 15px;
@@ -125,15 +120,9 @@ body{
     border-radius: 15px;
 }
 .body .restauCard .RestuContent{
-    /* background-color: white; */
-    /* height: 100px; */
-    /* background-color: #D3D3D3; */
     padding: 8px;
     margin-top: 3px;
-    line-height: 0.5;
-    width: fit-content; 
-    /* To adjust the height as well */ 
-    height: fit-content;
+    /* line-height: 0.5; */
     border-radius: 10px 10px 0px 0px;
 }
 .body .restauCard .RestuContent .RestauName{
