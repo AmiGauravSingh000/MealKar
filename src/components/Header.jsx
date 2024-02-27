@@ -1,6 +1,9 @@
 import React from "react";
-import { ReactDOM } from "react-dom/client";
-import { FaSearch } from "react-icons/fa";
+
+
+
+ 
+
 const Logo = () => {
     return (
         <a href="/">
@@ -9,18 +12,6 @@ const Logo = () => {
             
         </div>
         </a>
-    );
-}
-const searchbar = "nothing";
-const SearchBar = () => {
-    return (
-      <>
-         <div className="search-div">
-            <input type="text" placeholder="Searching..." 
-            defaultValue= {searchbar}/>
-            <FaSearch className="search-icon" />
-        </div>
-        </>
     );
 }
 
@@ -47,9 +38,8 @@ const Authenti = () => {
 }
 const Header = () =>{
     return (
-        <div className="container" key={1}>
+        <div className="container">
          {<Logo/>}
-        {<SearchBar/>}
         {<NavItems/>}
         {<Authenti/>}
          </div>

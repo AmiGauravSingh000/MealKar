@@ -3,6 +3,7 @@ import { IMG_CDN_URL } from "../../config";
 import {RestaurantList} from "../../config";
 
 
+
 const RestaurantCard = ({name,
     cloudinaryImageId,
     cuisines,
@@ -24,4 +25,4 @@ const RestaurantCard = ({name,
 
     );
 }
-export default {RestaurantCard,RestaurantList};
+export default RestaurantCard;
